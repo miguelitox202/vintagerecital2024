@@ -14,6 +14,7 @@ body {
     background-position: center center;
     background-size: cover;
     color: black;
+    text-align: center;
 }
 
 header {
@@ -36,10 +37,14 @@ header {
 
 #introduccion {
     padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #list {
     padding: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .Cronograma {
@@ -56,4 +61,23 @@ header {
     font-style: italic;
     margin-top: 2px;
     font-size: small;
+}
+
+@media(max-width: 720px)  {
+    
+    body {
+        text-align: left;
+    }
+
+    #introduccion {
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+
+    #list {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
 }
